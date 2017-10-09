@@ -1,0 +1,37 @@
+body{text-align: center;
+	background-color:#2bd3ec;
+}
+
+.c00307div{
+	margin-top: 13em;
+
+}
+.text001{margin-top:12vw ;
+	margin-left: 13em;
+	margin-right: 13em;
+}
+.text002{font-style: "黑体";
+	font-size:1.9em;
+	color: #ffffff;
+	text-align:left;}
+
+
+ .c00303{position: absolute;
+ 	left: 5.47vw;
+ 	top: 3em;
+ 	width: 55px;
+ }
+ .c00307{
+ 	width: 181px;
+ }
+ .c00311{position: absolute;
+ 	left: 19.06vw;
+ 	top:50.25em;
+ 	width: 119px;
+ }
+ .c00314{position: absolute;
+ 	right: 19.06vw;
+ 	top:50.25em;
+ 	width:103px;}
+
+
