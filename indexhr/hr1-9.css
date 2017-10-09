@@ -1,0 +1,55 @@
+.d01{position: absolute;
+ 	border-radius:3vw;
+	width:50vw;
+	height:43vw;
+	background:#D3D3D3;
+	margin:2vw;
+	left: 25vw;
+	top: 5vh;
+	text-align: center;
+	line-height: 5vw;
+	display: block}
+.a01{text-decoration: none;
+}
+.b00{text-indent: 1.2vw;
+	opacity: 0.8;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-origin: border-box;
+	background-position: center;
+	background-size: cover;
+	 }
+.p01{
+	font-size: 3.5vw;
+	color: #000000;
+}
+.sp01{font-size: 2.6vw
+	color: #000000;	
+}
+.sp02{font-size:2.4vw;
+	color: #000000;
+}
+.b02{
+    background-image:url(http://cn.bing.com/az/hprichbg/rb/Mapleleaf_ZH-CN9491310356_1920x1080.jpg);
+}
+.b03{
+    background-image:url(http://cn.bing.com/az/hprichbg/rb/SweetChestnut_ZH-CN10220364928_1920x1080.jpg);
+}
+.b04{
+    background-image:url(http://cn.bing.com/az/hprichbg/rb/SXSWTelescope_ZH-CN10124722940_1920x1080.jpg);
+}
+.b05{
+    background-image:url(http://cn.bing.com/az/hprichbg/rb/Mooncake_ZH-CN10274798301_1920x1080.jpg);
+}
+.b06{
+    background-image:url(http://cn.bing.com/az/hprichbg/rb/TimiderteKasbah_ZH-CN11865163382_1920x1080.jpg);
+}
+.b07{
+    background-image:url(http://cn.bing.com/az/hprichbg/rb/RioGrandeCottonwood_ZH-CN10631006696_1920x1080.jpg);
+}
+.b08{
+    background-image:url(http://cn.bing.com/az/hprichbg/rb/RedFlag_ZH-CN7582013591_1920x1080.jpg);
+}
+.b09{
+    background-image:url(http://cn.bing.com/az/hprichbg/rb/VallesMarineris_ZH-CN10598461085_1920x1080.jpg);
+}

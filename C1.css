@@ -1,0 +1,30 @@
+
+
+
+.boxstyle{position: absolute;
+ 	border-radius:3vw;
+	width:28vw;
+	height:28vw;
+	background:#808080;
+	margin:2vw;
+	text-align: center;
+	line-height: 28vw;
+	display: block }
+
+.a001{text-decoration: none;
+	font-size: 14.5vw;
+	font-weight: bolder;
+	color: #6495ED;
+}
+
+	
+.box1{left:2vw;top:2vw}
+.box2{left:34vw;top:2vw}
+.box3{left:66vw;top:2vw}
+.box4{left:2vw;top:34vw}
+.box5{left:34vw;top:34vw}
+.box6{left:66vw;top:34vw}
+.box7{left:2vw;top:66vw}
+.box8{left:34vw;top:66vw}
+.box9{left:66vw;top:66vw}
+
