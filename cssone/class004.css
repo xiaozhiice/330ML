@@ -1,0 +1,57 @@
+color="#84ced8"
+color="#eff0f4"
+color="#e6e9eb"
+html{font-size: 625%;
+}
+body{background: #eff0f4;
+}
+header{position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background: #84ced8;
+	line-height: 1rem;
+
+}
+header a{font-style: "SimHei";
+	color: #fff;
+	font-size: .2rem;
+	text-decoration: none;
+	
+	padding: 0rem;
+}
+.headerleft{float:left;
+}
+.headerright{float: right;
+}
+.h2style{text-align: center;
+	font-weight: bold;
+	font-size: 0.3rem;
+	color: #fff;
+	padding: 0;
+}
+
+
+.phone{float: left;
+}
+.password{float: left;
+}
+
+.top{background: #84ced8;
+	height: 2rem;
+	margin: 0;
+}
+.bottom{background: #84ced8;
+	height: 2.2rem;
+	margin: 0;
+}
+.putin{height: 2.2rem;
+	background: #fff;
+	margin: 0.
+}
+
+.puttxt{color: #e6e9eb;
+}
+.forget01{color:#84ced8;
+	float: right;
+}
