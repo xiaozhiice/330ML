@@ -23,12 +23,12 @@ header a{color: #fff;
 .row{margin: .04rem 0;
 	background: #fff;
 	height: .44rem;
-	border: solid red 0.001rem;
+	position: relative;
 }
 
 .phone{float: left;
 	background: url("../images/c00401.png") no-repeat;
-	background-size: .15rem;
+	background-size: .14rem;
 	background-position:center;
 	height: 0.44rem;
 	width: 0.6rem;
@@ -42,14 +42,18 @@ header a{color: #fff;
 }
 .password{float: left;
 	background: url("../images/c00402.png") no-repeat;
-	background-size: .15rem;
+	background-size: .14rem;
 	background-position:center;
 	height: 0.44rem;
 	width: 0.6rem;
 }
 
-.putin{height: 2.2rem;
+.putin{height: .44rem;
+	width: 100%;
 	background: #fff;
+	position: absolute;
+	margin-left: 0.1rem;
+	border:none;
 
 }
 
