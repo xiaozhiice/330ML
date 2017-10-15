@@ -6,10 +6,7 @@ color="#e6e9eb"
 padding: 0;}
 html{font-size: 625%;}
 body{background: #eff0f4;}
-header{position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
+header{
 	background: #5fc0cd;
 	height: .44rem;}
 header a{color: #fff;
@@ -23,20 +20,34 @@ header a{color: #fff;
 	color: #fff;
 	line-height: .42rem;}
 
+.row{margin: .04rem 0;
+	background: #fff;
+	height: .44rem;
+	border: solid red 0.001rem;
+}
 
 .phone{float: left;
+	background: url("../images/c00401.png") no-repeat;
+	background-size: .15rem;
+	background-position:center;
+	height: 0.44rem;
+	width: 0.6rem;
+}
+.cut-off{float: left;
+	background: url("../images/c00403.png") no-repeat;
+	background-size: .01rem ;
+	background-position:center;
+	height: 0.44rem;
+	width: 0.1rem;
 }
 .password{float: left;
+	background: url("../images/c00402.png") no-repeat;
+	background-size: .15rem;
+	background-position:center;
+	height: 0.44rem;
+	width: 0.6rem;
 }
 
-.top{background: #84ced8;
-	height: 2rem;
-
-}
-.bottom{background: #84ced8;
-	height: 2.2rem;
-
-}
 .putin{height: 2.2rem;
 	background: #fff;
 
