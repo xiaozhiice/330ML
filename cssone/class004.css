@@ -8,7 +8,7 @@ html{font-size: 625%;}
 body{background: #eff0f4;}
 header{
 	background: #5fc0cd;
-	height: .44rem;}
+	height: .46rem;}
 header a{color: #fff;
 	font-size: .18rem;
 	text-decoration: none;
@@ -20,18 +20,39 @@ header a{color: #fff;
 	color: #fff;
 	line-height: .42rem;}
 
-.row{margin: .04rem 0;
+
+
+
+
+
+.row{
+	margin: .1rem 0;
 	background: #fff;
-	height: .44rem;
-	position: relative;
+	height: .46rem;
+	font-size: .15rem;
+	border:.01rem solid   red;
+		
+}
+.row input{
+	box-sizing: border-box;
+	width: 100%;
+	border:none;
+	outline: none;
+	
+	line-height: .46rem;
+	padding-left: .8rem;
 }
 
-.phone{float: left;
+
+
+/*.phone{float: left;
 	background: url("../images/c00401.png") no-repeat;
 	background-size: .14rem;
 	background-position:center;
 	height: 0.44rem;
 	width: 0.6rem;
+	position: absolute;
+	z-index: 1;
 }
 .cut-off{float: left;
 	background: url("../images/c00403.png") no-repeat;
@@ -39,6 +60,9 @@ header a{color: #fff;
 	background-position:center;
 	height: 0.44rem;
 	width: 0.1rem;
+	position: absolute;
+	z-index: 1;
+	left: .55rem;
 }
 .password{float: left;
 	background: url("../images/c00402.png") no-repeat;
@@ -46,16 +70,19 @@ header a{color: #fff;
 	background-position:center;
 	height: 0.44rem;
 	width: 0.6rem;
+	position: absolute;
+	z-index: 1;
 }
 
-.putin{height: .44rem;
+.putin{box-sizing: border-box;
+	height: .5rem;
 	width: 100%;
 	background: #fff;
 	position: absolute;
-	margin-left: 0.1rem;
+	padding-left: .8rem;
 	border:none;
-
-}
+	outline: none;
+}*/
 
 .puttxt{color: #e6e9eb;
 }
