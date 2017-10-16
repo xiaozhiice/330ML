@@ -1,0 +1,79 @@
+
+*{
+    margin: 0;
+padding: 0;
+}
+html{
+    font-size: 625%;
+}
+
+body{
+    background: #fff;
+}
+header{
+    background: #5fc0cd;
+    height: .46rem;
+}
+
+.a-set{
+    color: #fff;
+    font-size: .14rem;
+    text-decoration: none;
+    padding: .12rem;
+}
+.headerleft{
+    float:left;
+}
+.headerright{
+    float:right;
+}
+.h2style{
+    text-align: center;
+    font-size: .16rem;
+    color: #fff;
+    line-height: .42rem;
+}
+
+.row{
+    margin: .1rem 0;
+    background: #fff;
+    height: .46rem;
+    font-size: .15rem;
+}
+.row input{
+    box-sizing: border-box;
+    width: 100%;
+    border:none;
+    outline: none;
+    line-height: .48rem;
+    padding-left: .8rem;
+}
+.inputtxt{
+    background: url("../images/c00401.png") no-repeat;
+    background-size: .4rem;
+    background-position: .15rem;
+}
+.inputpwd{
+    background: url("../images/c00402.png") no-repeat;
+    background-size: .4rem;
+    background-position: .15rem;
+}
+
+.button{
+    background: #5fc0cd;
+    text-align: center;
+    font-size: .16rem;
+    color: #fff;
+    line-height: .46rem;
+    width: 100%;
+    border:none;
+    display:block;
+}
+    
+.forgetpwd{
+    float: right;
+    color: #5fc0cd;
+    padding: .12rem;
+    font-size: .14rem;
+}
+
