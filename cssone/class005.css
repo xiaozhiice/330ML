@@ -1,4 +1,3 @@
-
 *{
     margin: 0;
 padding: 0;
@@ -8,72 +7,92 @@ html{
 }
 
 body{
-    background: #fff;
+    background: #eff0f4;
 }
 header{
     background: #5fc0cd;
-    height: .46rem;
+    height: .5rem;
 }
-
-.a-set{
+em{
+    font-style: normal;
+    color:  #e26163 ;   
+}
+.headerback{
     color: #fff;
-    font-size: .14rem;
+    font-size: .2rem;
     text-decoration: none;
     padding: .12rem;
-}
-.headerleft{
     float:left;
 }
-.headerright{
-    float:right;
-}
+
+ 
 .h2style{
     text-align: center;
-    font-size: .16rem;
+    font-size: .18rem;
     color: #fff;
-    line-height: .42rem;
+    line-height: .5rem;
 }
 
-.row{
-    margin: .1rem 0;
-    background: #fff;
-    height: .46rem;
-    font-size: .15rem;
-}
-.row input{
-    box-sizing: border-box;
+.topbg{position: relative;
+    background: url("../images/c00501.png") no-repeat;
+    height: 2rem;
     width: 100%;
-    border:none;
-    outline: none;
-    line-height: .48rem;
-    padding-left: .8rem;
+    background-size: cover;
 }
-.inputtxt{
-    background: url("../images/c00401.png") no-repeat;
-    background-size: .4rem;
-    background-position: .15rem;
-}
-.inputpwd{
-    background: url("../images/c00402.png") no-repeat;
-    background-size: .4rem;
-    background-position: .15rem;
+.topbg div{
+   color: #fff;
+   font-size: .15rem;
+   position: absolute;
 }
 
-.button{
-    background: #5fc0cd;
-    text-align: center;
-    font-size: .16rem;
-    color: #fff;
-    line-height: .46rem;
-    width: 100%;
-    border:none;
-    display:block;
+.topshow{
+    left: .3rem;
+    top: 50%;
+    margin-top: -.4rem;
+    width: .8rem;
+    height: .8rem;
+    border-radius: 50%;
+    overflow: hidden;
+    background: url("../images/c00502.png") no-repeat;
+    background-size: 100%;
+    background-color: #fff;
 }
-    
-.forgetpwd{
-    float: right;
-    color: #5fc0cd;
-    padding: .12rem;
+.topname{
+    left: 1.4rem;
+    top:0.78rem;
+}
+.topage{
+    left: 1.9rem;
+    top: .78rem;
+}
+.topplace{
+    left: 1.4rem;
+    top: 1rem;
+    text-indent: .25rem;
+    background: url("../images/c00503.png") no-repeat; 
+    background-size: .15rem;
+}
+.skill div {
     font-size: .14rem;
+    color: #000;
+    line-height: .5rem;
 }
-
+.row{position: relative;
+    flex-direction: row-reverse;
+    font-size: .4rem;
+    border-bottom: solid 0.01rem #000;
+    margin: 0 .2rem;
+}
+.skill-row-l{
+    position: absolute;
+ 
+    left: 0;
+    top: 0;
+    line-height: .16rem;
+    border-right: solid .01rem #000;
+}
+.skill-row-r{
+    top: 0;
+    position: absolute;
+    padding-left: 1rem;
+}
