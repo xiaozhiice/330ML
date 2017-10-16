@@ -13,6 +13,9 @@ header{
     background: #5fc0cd;
     height: .5rem;
 }
+ul, li, ol {
+    list-style: none;
+}
 em{
     font-style: normal;
     color:  #e26163 ;   
@@ -72,27 +75,51 @@ em{
     background: url("../images/c00503.png") no-repeat; 
     background-size: .15rem;
 }
-.skill div {
+
+.row li div ,
+.skill div{
     font-size: .14rem;
-    color: #000;
-    line-height: .5rem;
 }
-.row{position: relative;
-    flex-direction: row-reverse;
-    font-size: .4rem;
-    border-bottom: solid 0.01rem #000;
+.skill-top{
+    padding: 0 .1rem;
+    line-height: 0.5rem;
+    border-bottom: solid 1px #ccc;
+}
+.skill-span{
+    border-left: .04rem solid  #5fc0cd;
+    padding-left:.1rem; 
+}
+
+.skill-star{
+    display: inline-block;
+    background: url("../images/c00504.png") no-repeat;
+    background-size: .16rem;
+    padding-left: .2rem;
+    margin: 0 .1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    height: .2rem;
+}
+
+.row li{ position: relative;
+    border-bottom: solid 1px #ccc;
     margin: 0 .2rem;
+    line-height: .2rem;
+    
+
 }
-.skill-row-l{
-    position: absolute;
- 
-    left: 0;
-    top: 0;
-    line-height: .16rem;
-    border-right: solid .01rem #000;
+.skill-row-l{position: absolute;
+    width: .8rem;
+    color: #aaa;
+    border-right: solid 1px #ccc;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-left: .2rem;
+    line-height: .3rem;
 }
 .skill-row-r{
-    top: 0;
-    position: absolute;
-    padding-left: 1rem;
+    color: #000;
+    margin-left: 1.1rem;
+    padding: .11rem;
+
 }
