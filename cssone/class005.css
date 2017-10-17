@@ -99,7 +99,8 @@ footer button{
     border-radius: 50%;
     overflow: hidden;
     background: url("../images/c00502.png") no-repeat;
-    background-size: 100%;
+    background-position: center .1rem;
+    background-size: 70%;
     background-color: #fff;
 }
 .topname{
@@ -114,7 +115,8 @@ footer button{
     left: 1.4rem;
     top: 1rem;
     text-indent: .25rem;
-    background: url("../images/c00503.png") no-repeat; 
+    background: url("../images/c00503.png") no-repeat;
+    background-position: .01rem ; 
     background-size: .15rem;
 }
 /*专业技能*/
