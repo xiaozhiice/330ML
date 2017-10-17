@@ -1,25 +1,46 @@
 *{
     margin: 0;
-padding: 0;
-}
-html{
-    font-size: 625%;
-}
-
-body{
-    background: #eff0f4;
-}
-header{
-    background: #5fc0cd;
-    height: .5rem;
-}
-ul, li, ol {
+    padding: 0;
     list-style: none;
 }
 em{
     font-style: normal;
-    color:  #e26163 ;   
+    color: #e26163 ;   
 }
+html{
+    font-size: 625%;
+}
+body{
+    background: #eff0f4;
+}
+header,
+footer{
+    height: .5rem;
+    position: fixed;
+}
+header{
+    top: 0;
+    background: #5fc0cd;
+    left: 0;
+    right: 0;
+}
+footer{
+    display:flex;
+    bottom: .1rem;
+    left: .1rem;
+    right: .1rem;
+}
+main{
+    position: absolute;
+    top: .5rem;
+    bottom: .6rem;
+    left: 0;
+    right: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+/*header*/
 .headerback{
     color: #fff;
     font-size: .2rem;
@@ -27,21 +48,42 @@ em{
     padding: .12rem;
     float:left;
 }
-
- 
 .h2style{
     text-align: center;
     font-size: .18rem;
     color: #fff;
     line-height: .5rem;
+    padding: 0 .5rem;
 }
+/*footer*/
+footer button{
+    cursor:pointer;
+    outline: none;
+    border:none;
+    border-radius:.05rem;
+    background:#5fc0cd;
+    color: #fff;
+    font-size: .16rem;
+    width: 50%;
 
-.topbg{position: relative;
+
+}
+.footer-l{
+    background: #fff;
+    border: solid .02rem #5fc0cd;
+    color: #5fc0cd;
+    margin-right: .1rem;
+}
+/*个人信息*/
+
+.topbg{
     background: url("../images/c00501.png") no-repeat;
     height: 2rem;
     width: 100%;
     background-size: cover;
+    position: relative;
 }
+
 .topbg div{
    color: #fff;
    font-size: .15rem;
@@ -75,7 +117,7 @@ em{
     background: url("../images/c00503.png") no-repeat; 
     background-size: .15rem;
 }
-
+/*专业技能*/
 .row li div ,
 .skill div{
     font-size: .14rem;
@@ -98,7 +140,6 @@ em{
     margin: 0 .1rem;
     top: 50%;
     transform: translateY(-50%);
-    height: .2rem;
 }
 
 .row li{ position: relative;
