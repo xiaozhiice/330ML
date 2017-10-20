@@ -70,5 +70,18 @@ header button{
 	background: url("../images/c00601.png") no-repeat;
 	background-size: 100%;
 	background-position-y:0%;
-
+}
+.lest{
+	height: .38rem;
+	width: 100%;
+	font-size: .15rem;
+	top: .54rem;
+	position: absolute;
+}
+.lest-box{
+	display: inline-flex;
+	width: 32.9%;
+}
+.lest-btn{
+	width: 100%;
 }
