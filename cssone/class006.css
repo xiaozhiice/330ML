@@ -33,6 +33,7 @@ header{
 	left: 0;
 	right: 0;
 	background: #5fc0cd;
+	z-index: 999999;
 }
 header button{
 	height: .42rem;
@@ -116,11 +117,15 @@ header button{
 	background: #ddd;
 	color: #000;
 }
+/*list边线和三角图标*/
 .list-first div{
 	position: absolute;
 }
 .list-first-icon{
-
+	border: solid .07rem ;
+	border-color: #ccc #fff #fff #fff ;
+	margin: .18rem 0;
+	right: 8%;
 }
 .list-first-border{
 	right: 0;
