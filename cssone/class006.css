@@ -105,13 +105,15 @@ header button{
 }
 .list-first > li:hover .list-second > li {
 	display: block;
-	box-shadow: 0px 2px 12px 0px #ccc;
+	box-shadow: 5px 3px 5px 0px #ccc ;
+	background: #fff;
 }
 .list-second a{
 	height: .42rem;
 	display: inline-block;
 	width: 100%;
 	color: #bbb;
+	box-shadow: 5px 2px 5px 0px #ccc ;
 }
 .list-second a:hover{
 	background: #ddd;
