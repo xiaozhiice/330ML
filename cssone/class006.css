@@ -28,7 +28,7 @@ footer{
 }
 /*header*/
 header{
-	height: .54rem;
+	height: .58rem;
 	top: 0;
 	left: 0;
 	right: 0;
@@ -36,17 +36,17 @@ header{
 	z-index: 999999;
 }
 header button{
-	height: .42rem;
+	height: .44rem;
 	width: .858rem;
-	font-size: .18rem;
-	line-height: .42rem;
+	font-size: .21rem;
+	line-height: .44rem;
 	position: absolute;
 	border-radius: .07rem;
 	color: #55a8b3
 
 }
 .head-lr{
-	margin-top: .066rem;
+	margin-top: .075rem;
 	border-radius: .072rem;
 	background: #fff;
 	width: 1.716rem;
@@ -67,7 +67,7 @@ header button{
 	color: #55a8b3
 }
 .head-icon{
-	top: .15rem;
+	top: .18rem;
 	right: .25rem;
 	width: .26rem;
 	height: .278rem;
@@ -82,20 +82,20 @@ header button{
 
 
 .list{
-	margin-top: .54rem;
+	margin-top: .58rem;
 	top:.54rem;
-	font-size: .16rem;
+	font-size: .17rem;
 	width: 100%;
 	color: #bbb;
 }
 .list-first > li{
 	background: #fff;
 	width: 33.33333%;
-	height: .42rem;
+	height: .5rem;
 	float: left;
 	cursor:pointer;
 	text-align: center;
-	line-height: .42rem;
+	line-height: .5rem;
 	position: relative;
 	border-bottom: solid 1px #bbb;
 }
@@ -108,8 +108,11 @@ header button{
 	box-shadow: 5px 3px 5px 0px #ccc ;
 	background: #fff;
 }
+.list-first > li:hover{
+	color: #000;
+}
 .list-second a{
-	height: .42rem;
+	height: .5rem;
 	display: inline-block;
 	width: 100%;
 	color: #bbb;
@@ -134,4 +137,16 @@ header button{
 	top:.07rem;
 	border-right: solid 1px #bbb;
 	height: .28rem;
+}
+main{
+	font-size: .17rem;
+	overflow-x: hidden;
+	overflow-y: auto;
+	width: 100%;
+}
+.items li{
+	height: 1rem;
+	border-bottom:solid 1px #bbb;
+	display: flex;
+	width: 100%;
 }
