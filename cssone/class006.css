@@ -3,24 +3,16 @@
 	padding:0;
 	list-style:none;
 }
-/*em{
-	font-style: normal;
-	color: #e26163;
-}*/
 html{
 	font-size: 625%;
 }
 a{
 	text-decoration: none;
 }
-/*body{
-	background: #eff0f4
-}*/
 button{
 	cursor: pointer;
 	outline: none;
 	border: none;
-
 }
 header,
 footer{
@@ -76,9 +68,7 @@ header button{
 	background-size: 100%;
 }
 
-
 /*list*/
-
 
 .list{
 	margin-top: .58rem;
@@ -137,6 +127,7 @@ header button{
 	border-right: solid 1px #bbb;
 	height: .28rem;
 }
+
 /*items*/
 main{
 	font-size: .18rem;
@@ -156,7 +147,6 @@ main{
 .items-first{
 	width: 100%;
 }
-
 .items-first span{
 	display: inline-block;
 }
@@ -169,7 +159,7 @@ main{
 }
 .items-content-time{
 	margin-left: .22rem;
-	/*font-family: "Microsoft YaHei";*/
+	font-family: "Microsoft YaHei";
 	font-size: .17rem;
 }
 .items-content-price{
@@ -202,12 +192,11 @@ main{
 	background-size: 82%;
 	background-position-y: 104%;
 	float: left;
-
 }
 .items-sites-icon{
 	width: .19rem;
 	height: .19rem;
-	margin-top: .03rem;
+	margin: .03rem .02rem 0 0;
 	background: url("../images/c00601.png") no-repeat;
 	background-size: 82%;
 	background-position-y: 80.6%;
