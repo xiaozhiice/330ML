@@ -22,15 +22,73 @@ button{
 header,
 footer{
 	position: fixed;
+	left: 0;
+	right: 0;
+	z-index: 999999;
+}
+footer{
+	height: .65rem;
+	background: #fff;
+	bottom: 0;
+}
+footer button{
+	background: #fff;
+	position: relative;
+	height: .63rem;
+	vertical-align:top
+}
+.footer-all{
+	text-align: center;
+}
+footer p{
+	font-size: .15rem;
+	color: #5fc0cd;
+}
+.footer-mine-text{
+	color: #bbb;
+}
+footer span{
+	display: block;
+	background: #fff;
+
+}
+
+.footer-fpage-icon{
+	width: .35rem;
+	height: .35rem;
+	background: url("../images/c00601.png") no-repeat;
+	background-size:95%;
+	background-position-y:38%;
+	margin-bottom: .05rem;
+}
+.footer-write{
+	background: #5fc0cd;
+	border-radius: 50%;
+	width: .63rem;
+	margin: 0 .6rem;
+}
+.footer-write-icon{
+	background: url("../images/c00601.png") no-repeat;
+	width: .33rem;
+	height: .33rem;
+	background-size: 100%;
+	margin: .15rem;
+	background-position-y:20.5%;
+
+}
+.footer-mine-icon{
+	width: .31rem;
+	height: .30rem;
+	background: url("../images/c00601.png") no-repeat;
+	background-size:101%;
+	background-position-y:58.23%;
+	margin-bottom: .05rem;
 }
 /*header*/
 header{
 	height: .58rem;
 	top: 0;
-	left: 0;
-	right: 0;
 	background: #5fc0cd;
-	z-index: 999999;
 }
 header button{
 	height: .44rem;
@@ -40,7 +98,6 @@ header button{
 	position: absolute;
 	border-radius: .07rem;
 	color: #55a8b3
-
 }
 .head-lr{
 	margin-top: .075rem;
