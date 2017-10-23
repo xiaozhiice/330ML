@@ -85,47 +85,29 @@ header button{
 	cursor:pointer;
 	text-align: center;
 	line-height: .5rem;
-	position: relative;
 	border-bottom: solid 1px #bbb;
+	position: relative;
 }
-/*hover下拉菜单*/
-.list-second li{
-	display: none;
-}
-.list-first > li:hover .list-second > li {
-	display: block;
-	box-shadow: 5px 3px 5px 0px #ccc ;
-	background: #fff;
-}
-.list-first > li:hover{
-	color: #000;
-}
-.list-second a{
+.list-first li select{
 	height: .5rem;
-	display: inline-block;
-	width: 100%;
+	border:none;
+	font-size: .175rem;
+	text-align: center;
 	color: #bbb;
-	box-shadow: 5px 2px 5px 0px #ccc ;
+	padding: 0 .3rem;
 }
-.list-second a:hover{
-	background: #ddd;
-	color: #000;
+.list-first li select option{
+	color: #bbb;
+	font-size: .175rem;
+	text-align: center;
 }
-/*list边线和三角图标*/
-.list-first div{
-	position: absolute;
-}
-.list-first-icon{
-	border: solid .06rem ;
-	border-color: #ccc #fff #fff #fff ;
-	margin-top: .23rem;
-	right: 8%;
-}
-.list-first-border{
+/*list-边线*/
+.list-border{
 	right: 0;
-	top:.07rem;
+	top:.12rem;
 	border-right: solid 1px #bbb;
 	height: .28rem;
+	position: absolute;
 }
 
 /*items*/
