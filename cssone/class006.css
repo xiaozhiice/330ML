@@ -9,6 +9,11 @@ html{
 a{
 	text-decoration: none;
 }
+select{
+	appearance:none;
+	-moz-appearance:none;
+	-webkit-appearance:none;
+}
 button{
 	cursor: pointer;
 	outline: none;
@@ -105,12 +110,19 @@ header button{
 	display: none;
 }
 
-/*list-边线*/
+/*list-边线&下三角*/
 .list-border{
 	right: 0;
 	top:.12rem;
 	border-right: solid 1px #bbb;
 	height: .28rem;
+	position: absolute;
+}
+.list-icon{
+	border: solid .06rem ;
+	border-color: #ccc #fff #fff #fff ;
+	right: 8%;
+	top: .22rem;
 	position: absolute;
 }
 
