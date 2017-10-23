@@ -42,7 +42,7 @@ header button{
 	border-radius: .072rem;
 	background: #fff;
 	width: 1.716rem;
-	height: .42rem;
+	height: .44rem;
 	position: relative;
 	left: 50%;
 	transform: translateX(-50%);
@@ -82,13 +82,13 @@ header button{
 	width: 33.33333%;
 	height: .5rem;
 	float: left;
-	cursor:pointer;
 	text-align: center;
 	line-height: .5rem;
 	border-bottom: solid 1px #bbb;
 	position: relative;
 }
 .list-first li select{
+	cursor:pointer;
 	height: .5rem;
 	border:none;
 	font-size: .175rem;
@@ -101,6 +101,10 @@ header button{
 	font-size: .175rem;
 	text-align: center;
 }
+.option-default{
+	display: none;
+}
+
 /*list-边线*/
 .list-border{
 	right: 0;
@@ -143,6 +147,7 @@ main{
 	margin-left: .22rem;
 	font-family: "Microsoft YaHei";
 	font-size: .17rem;
+	color: #000;
 }
 .items-content-price{
 	float: right;
