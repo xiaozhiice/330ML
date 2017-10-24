@@ -9,11 +9,7 @@ html{
 a{
 	text-decoration: none;
 }
-select{
-	appearance:none;
-	-moz-appearance:none;
-	-webkit-appearance:none;
-}
+
 button{
 	cursor: pointer;
 	outline: none;
@@ -133,12 +129,19 @@ footer span{
 }
 
 /*list*/
+select{
+	appearance:none;
+	-moz-appearance:none;
+	-webkit-appearance:none;
+}
+
 .list{
 	margin-top: .58rem;
 	top:.54rem;
 	font-size: .175rem;
 	width: 100%;
 	color: #bbb;
+	overflow-x: hidden;
 }
 .list-first > li{
 	background: #fff;
@@ -150,32 +153,24 @@ footer span{
 	border-bottom: solid 1px #bbb;
 	position: relative;
 }
-/*hover下拉菜单*/
-.list-second li{
+.list-first li select{
+	display: border-box;
+	cursor:pointer;
+	height: .5rem;
+	border:none;
+	font-size: .175rem;
+	text-align: center;
+	color: #bbb;
+	width: 100%;
+	padding: 0 1rem;
+}
+.list-first li select option{
+}
+
+.option-default{
 	display: none;
 }
-.list-first > li:hover .list-second > li {
-	display: block;
-	box-shadow: 5px 3px 5px 0px #ccc ;
-	background: #fff;
-}
-.list-first > li:hover{
-	color: #000;
-}
-.list-second a{
-	height: .5rem;
-	display: inline-block;
-	width: 100%;
-	color: #bbb;
-	box-shadow: 5px 2px 5px 0px #ccc ;
-}
-.list-second a:hover{
-	background: #ddd;
-	color: #000;
-}
-.list-first div{
-	position: absolute;
-}
+
 /*list-边线&下三角*/
 .list-border{
 	right: 0;
