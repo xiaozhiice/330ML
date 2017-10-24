@@ -70,17 +70,13 @@ header button{
 }
 
 /*list*/
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 select{
 	appearance:none;
 	-moz-appearance:none;
 	-webkit-appearance:none;
 }
-=======
->>>>>>> parent of 0033d08... change class006 button
-=======
->>>>>>> parent of 0033d08... change class006 button
+
 
 .list{
 	margin-top: .58rem;
@@ -100,46 +96,22 @@ select{
 	position: relative;
 }
 .list-first li select{
-<<<<<<< HEAD
-<<<<<<< HEAD
-	display: border-box;
-=======
->>>>>>> parent of 0033d08... change class006 button
-=======
->>>>>>> parent of 0033d08... change class006 button
 	cursor:pointer;
 	height: .5rem;
 	border:none;
 	font-size: .175rem;
 	text-align: center;
-<<<<<<< HEAD
 	color: #bbb;
-<<<<<<< HEAD
 	width: 100%;
 	padding: 0 1rem;
 }
+
 .list-first li select option{
+	color: #bbb;
+	font-size: .175rem;
+	text-align: center;
 }
 
-=======
-	padding: 0 .3rem;
-}
-.list-first li select option{
-	color: #bbb;
-	font-size: .175rem;
-	text-align: center;
-}
->>>>>>> parent of 0033d08... change class006 button
-=======
-	color: #bbb;
-	padding: 0 .3rem;
-}
-.list-first li select option{
-	color: #bbb;
-	font-size: .175rem;
-	text-align: center;
-}
->>>>>>> parent of 0033d08... change class006 button
 .option-default{
 	display: none;
 }
