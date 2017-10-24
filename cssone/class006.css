@@ -1,0 +1,262 @@
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+html{
+	font-size: 625%;
+}
+a{
+	text-decoration: none;
+}
+select{
+	appearance:none;
+	-moz-appearance:none;
+	-webkit-appearance:none;
+}
+button{
+	cursor: pointer;
+	outline: none;
+	border: none;
+}
+header,
+footer{
+	position: fixed;
+	left: 0;
+	right: 0;
+	z-index: 999999;
+}
+
+/*header*/
+header{
+	height: .58rem;
+	top: 0;
+	background: #5fc0cd;
+}
+header button{
+	height: .44rem;
+	width: .858rem;
+	font-size: .21rem;
+	line-height: .44rem;
+	position: absolute;
+	border-radius: .07rem;
+	color: #55a8b3
+}
+.head-lr{
+	margin-top: .075rem;
+	border-radius: .072rem;
+	background: #fff;
+	width: 1.716rem;
+	height: .44rem;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	background: #55a8b3;
+}
+
+.head-l{
+	background: #55a8b3;
+	color: #fff;
+}
+.head-r{
+	right: 0;
+	background: #fff;
+	color: #55a8b3
+}
+.head-icon{
+	top: .18rem;
+	right: .25rem;
+	width: .26rem;
+	height: .278rem;
+	position: absolute;
+	background: url("../images/c00601.png") no-repeat;
+	background-size: 100%;
+}
+/*footer*/
+footer{
+	height: .65rem;
+	background: #fff;
+	bottom: 0;
+}
+footer button{
+	background: #fff;
+	position: relative;
+	height: .63rem;
+	vertical-align:top
+}
+.footer-all{
+	text-align: center;
+}
+/*footer text*/
+footer p{
+	font-size: .15rem;
+	color: #5fc0cd;
+}
+.footer-mine-text{
+	color: #bbb;
+}
+footer span{
+	display: block;
+	background: #fff;
+}
+/*footer icons*/
+.footer-fpage-icon{
+	width: .35rem;
+	height: .35rem;
+	background: url("../images/c00601.png") no-repeat;
+	background-size:95%;
+	background-position-y:38%;
+	margin-bottom: .05rem;
+}
+.footer-write{
+	background: #5fc0cd;
+	border-radius: 50%;
+	width: .63rem;
+	margin: 0 .6rem;
+}
+.footer-write-icon{
+	background: url("../images/c00601.png") no-repeat;
+	width: .33rem;
+	height: .33rem;
+	background-size: 100%;
+	margin: .15rem;
+	background-position-y:20.5%;
+
+}
+.footer-mine-icon{
+	width: .31rem;
+	height: .30rem;
+	background: url("../images/c00601.png") no-repeat;
+	background-size:101%;
+	background-position-y:58.23%;
+	margin-bottom: .05rem;
+}
+
+/*list*/
+
+.list{
+	margin-top: .58rem;
+	top:.54rem;
+	font-size: .175rem;
+	width: 100%;
+	color: #bbb;
+}
+.list-first > li{
+	background: #fff;
+	width: 33.33333%;
+	height: .5rem;
+	float: left;
+	text-align: center;
+	line-height: .5rem;
+	border-bottom: solid 1px #bbb;
+	position: relative;
+}
+.list-first li select{
+	cursor:pointer;
+	height: .5rem;
+	border:none;
+	font-size: .175rem;
+	text-align: center;
+	color: #bbb;
+	padding: 0 .3rem;
+}
+.list-first li select option{
+	color: #bbb;
+	font-size: .175rem;
+	text-align: center;
+}
+.option-default{
+	display: none;
+}
+
+/*list-边线&下三角*/
+.list-border{
+	right: 0;
+	top:.12rem;
+	border-right: solid 1px #bbb;
+	height: .28rem;
+	position: absolute;
+}
+.list-icon{
+	border: solid .06rem ;
+	border-color: #ccc #fff #fff #fff ;
+	right: 8%;
+	top: .22rem;
+	position: absolute;
+}
+
+/*items*/
+main{
+	font-size: .18rem;
+	overflow-x: hidden;
+	overflow-y: auto;
+	width: 100%;
+
+}
+.items li{
+	height: 1.2rem;
+	border-bottom:solid 1px #bbb;
+	display: flex;
+	padding: 0 .1rem;
+	right: .25rem;
+}
+
+.items-first{
+	width: 100%;
+}
+.items-first span{
+	display: inline-block;
+}
+/*items-content*/
+.items-content{
+	height: .3rem;
+}
+.items-content span{
+	line-height: .3rem;
+}
+.items-content-time{
+	margin-left: .22rem;
+	font-family: "Microsoft YaHei";
+	font-size: .17rem;
+	color: #000;
+}
+.items-content-price{
+	float: right;
+	color: #f40;
+	font-size: .183rem;
+}
+.items-content-icon{
+	color: #55a8b3;
+	float: right;
+	font-weight: bold;
+	font-size: .25rem;
+	padding-left: .04rem;
+	font-family: "SimHei";
+}
+/*items-third-time&sites*/
+.items-time,
+.items-sites{
+	height: .45rem;
+	color: #bbb;
+}
+.items-time-txt{
+	margin-top: .2rem;
+}
+.items-time-icon{
+	width: .21rem;
+	height: .21rem;
+	margin-top: .22rem;
+	background: url("../images/c00601.png") no-repeat;
+	background-size: 82%;
+	background-position-y: 104%;
+	float: left;
+}
+.items-sites-icon{
+	width: .19rem;
+	height: .19rem;
+	margin: .03rem .02rem 0 0;
+	background: url("../images/c00601.png") no-repeat;
+	background-size: 82%;
+	background-position-y: 80.6%;
+	float: left;
+}
