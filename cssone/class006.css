@@ -130,11 +130,14 @@ footer span{
 
 /*list*/
 <<<<<<< HEAD
+<<<<<<< HEAD
 select{
 	appearance:none;
 	-moz-appearance:none;
 	-webkit-appearance:none;
 }
+=======
+>>>>>>> parent of 0033d08... change class006 button
 =======
 >>>>>>> parent of 0033d08... change class006 button
 
@@ -158,7 +161,10 @@ select{
 }
 .list-first li select{
 <<<<<<< HEAD
+<<<<<<< HEAD
 	display: border-box;
+=======
+>>>>>>> parent of 0033d08... change class006 button
 =======
 >>>>>>> parent of 0033d08... change class006 button
 	cursor:pointer;
@@ -166,6 +172,7 @@ select{
 	border:none;
 	font-size: .175rem;
 	text-align: center;
+<<<<<<< HEAD
 	color: #bbb;
 <<<<<<< HEAD
 	width: 100%;
@@ -175,6 +182,16 @@ select{
 }
 
 =======
+	padding: 0 .3rem;
+}
+.list-first li select option{
+	color: #bbb;
+	font-size: .175rem;
+	text-align: center;
+}
+>>>>>>> parent of 0033d08... change class006 button
+=======
+	color: #bbb;
 	padding: 0 .3rem;
 }
 .list-first li select option{
