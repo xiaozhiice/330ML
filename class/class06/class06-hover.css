@@ -24,11 +24,57 @@
 }
 .list-first div{
 	position: absolute;
-}*/
+}
 /*list-三角符号*/
 .list-first-icon{
 	border: solid .06rem ;
 	border-color: #ccc #fff #fff #fff ;
 	margin-top: .23rem;
 	right: 8%;
+}
+
+
+
+/*select下拉框*/
+
+select{
+	appearance:none;
+	-moz-appearance:none;
+	-webkit-appearance:none;
+}
+
+.list{
+	margin-top: .58rem;
+	top:.54rem;
+	font-size: .175rem;
+	width: 100%;
+	color: #bbb;
+	overflow-x: hidden;
+}
+.list-first > li{
+	background: #fff;
+	width: 33.33333%;
+	height: .5rem;
+	float: left;
+	text-align: center;
+	line-height: .5rem;
+	border-bottom: solid 1px #bbb;
+	position: relative;
+}
+.list-first li select{
+	display: border-box;
+	cursor:pointer;
+	height: .5rem;
+	border:none;
+	font-size: .175rem;
+	text-align: center;
+	color: #bbb;
+	width: 100%;
+	padding: 0 1rem;
+}
+.list-first li select option{
+}
+
+.option-default{
+	display: none;
 }
