@@ -70,7 +70,8 @@ header button{
 }
 
 /*list*/
-
+<<<<<<< HEAD
+<<<<<<< HEAD
 select{
 	appearance:none;
 	-moz-appearance:none;
@@ -107,12 +108,25 @@ select{
 	padding: 0 1rem;
 }
 
+=======
+	padding: 0 .3rem;
+}
 .list-first li select option{
 	color: #bbb;
 	font-size: .175rem;
 	text-align: center;
 }
-
+>>>>>>> parent of 0033d08... change class006 button
+=======
+	color: #bbb;
+	padding: 0 .3rem;
+}
+.list-first li select option{
+	color: #bbb;
+	font-size: .175rem;
+	text-align: center;
+}
+>>>>>>> parent of 0033d08... change class006 button
 .option-default{
 	display: none;
 }
@@ -147,22 +161,13 @@ main{
 	display: flex;
 	padding: 0 .1rem;
 	right: .25rem;
-
 }
 
 .items-first{
 	width: 100%;
-
-}
-.items-first div{
-	white-space: nowrap;
-	overflow: hidden;
 }
 .items-first span{
 	display: inline-block;
-	white-space: nowrap;
-	overflow: hidden;
-	text-overflow: ellipsis;
 }
 /*items-content*/
 .items-content{
@@ -176,13 +181,11 @@ main{
 	font-family: "Microsoft YaHei";
 	font-size: .17rem;
 	color: #000;
-	width: 55%;
 }
 .items-content-price{
 	float: right;
 	color: #f40;
 	font-size: .183rem;
-	width: 29%;
 }
 .items-content-icon{
 	color: #55a8b3;
@@ -200,10 +203,6 @@ main{
 }
 .items-time-txt{
 	margin-top: .2rem;
-	width: 50%;
-}
-.items-sites-txt{
-	width: 50%;
 }
 .items-time-icon{
 	width: .21rem;
