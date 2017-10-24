@@ -147,7 +147,6 @@ select{
 	font-size: .175rem;
 	width: 100%;
 	color: #bbb;
-	overflow-x: hidden;
 }
 .list-first > li{
 	background: #fff;
