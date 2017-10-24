@@ -140,6 +140,7 @@ footer span{
 	font-size: .175rem;
 	width: 100%;
 	color: #bbb;
+	overflow-x: hidden;
 }
 .list-first > li{
 	background: #fff;
@@ -191,7 +192,7 @@ main{
 	overflow-x: hidden;
 	overflow-y: auto;
 	width: 100%;
-
+	margin-bottom: .65rem;
 }
 .items li{
 	height: 1.2rem;
@@ -203,13 +204,23 @@ main{
 
 .items-first{
 	width: 100%;
+
 }
+.items-first div{
+	width: nowrap;
+	overflow: hidden;
+}
+
 .items-first span{
 	display: inline-block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
 /*items-content*/
 .items-content{
 	height: .3rem;
+
 }
 .items-content span{
 	line-height: .3rem;
@@ -219,11 +230,15 @@ main{
 	font-family: "Microsoft YaHei";
 	font-size: .17rem;
 	color: #000;
+	width: 55%;
 }
 .items-content-price{
 	float: right;
 	color: #f40;
 	font-size: .183rem;
+	width: 29%;
+	text-align: right;
+
 }
 .items-content-icon{
 	color: #55a8b3;
@@ -241,6 +256,10 @@ main{
 }
 .items-time-txt{
 	margin-top: .2rem;
+	width: 50%
+}
+.items-sites-txt{
+	width: 50%;
 }
 .items-time-icon{
 	width: .21rem;
