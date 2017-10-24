@@ -157,14 +157,14 @@ footer span{
 	height: .5rem;
 	border:none;
 	font-size: .175rem;
-	text-align: center;
 	color: #bbb;
-	padding: 0 .3rem;
+	padding: 0 37%;
+
 }
 .list-first li select option{
 	color: #bbb;
 	font-size: .175rem;
-	text-align: center;
+
 }
 .option-default{
 	display: none;
@@ -181,7 +181,7 @@ footer span{
 .list-icon{
 	border: solid .06rem ;
 	border-color: #ccc #fff #fff #fff ;
-	right: 8%;
+	right: 7%;
 	top: .22rem;
 	position: absolute;
 }
