@@ -37,3 +37,13 @@ header{
 	background: #fff;
 	color: #55a8b3;
 }
+.header-icon{
+	display: block;
+	position: absolute;
+	top: 1.8rem;
+	right: 2.5rem;
+	width:2.6rem;
+	height: 2.78rem;
+	background: url("../images/c00601.png") no-repeat;
+	background-size: 100%;
+}
