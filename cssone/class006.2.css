@@ -102,3 +102,16 @@ footer span{
 .footer-right p{
 	color: #bbb;
 }
+
+.select-list{
+	position: relative;
+	top: 5.8rem;
+}
+.select-list .dropdown{
+	display: inline-block;
+	width: 33.33333%;
+}
+.select-list .dropdown button{
+	border: 0;
+	width: 100%;
+}
