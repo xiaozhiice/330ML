@@ -103,6 +103,7 @@ footer span{
 	background: url("../images/c00601.png") no-repeat;
 	background-size:101%;
 	background-position-y:58.23%;
+	margin-top: .5rem;
 }
 .footer-right p{
 	color: #bbb;
